@@ -1,6 +1,6 @@
 Sample program:
 
-```
+```js
 import { programFromString, Executor } from './index.js'
 
 // Sample input program.
