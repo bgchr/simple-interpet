@@ -1,3 +1,6 @@
+Sample program:
+
+```
 import { programFromString, Executor } from './index.js'
 
 // Sample input program.
@@ -18,3 +21,4 @@ const executor = new Executor({
 // Throws if there's any error when executing the program.
 const result = executor.execute(program);
 console.log(result);
+```
